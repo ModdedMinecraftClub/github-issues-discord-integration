@@ -1,0 +1,9 @@
+[package]
+name = "reminder"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = {version = "1.0.48", features = ["backtrace"] }
+common = { path = "../common" }
+tokio = {version = "1.14.0", features = ["full", "rt-multi-thread"] }
